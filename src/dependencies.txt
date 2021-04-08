@@ -1,0 +1,8 @@
+npx create-react-app netflix-app-youtube --template redux
+yarn add firebase
+yarn add react-router-dom
+npm install -g firebase-tools
+yarn add axios
+
+
+backend tmdb axios API
