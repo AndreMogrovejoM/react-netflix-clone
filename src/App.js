@@ -19,7 +19,6 @@ function App() {
 		const unsubscribe = auth.onAuthStateChanged(userAuth => {
 			if (userAuth) {
 				// Logged in
-				console.log(userAuth);
 				// push the user into the store(dispatch an object into the store)
 				dispatch(
 					login({

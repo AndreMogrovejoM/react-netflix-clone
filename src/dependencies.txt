@@ -3,6 +3,9 @@ yarn add firebase
 yarn add react-router-dom
 npm install -g firebase-tools
 yarn add axios
+yarn add @stripe/stripe-js
+yarn add react-youtube
+yarn add movie-trailer
 
 
 backend tmdb axios API
