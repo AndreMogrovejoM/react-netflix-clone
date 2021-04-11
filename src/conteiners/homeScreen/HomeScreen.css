@@ -1,4 +1,5 @@
 .homeScreen {
     background-color: #111;
     height: 250vh;
+    z-index: 1;
 }

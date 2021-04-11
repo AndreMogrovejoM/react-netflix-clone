@@ -7,5 +7,7 @@ yarn add @stripe/stripe-js
 yarn add react-youtube
 yarn add movie-trailer
 
-
+##APIS
 backend tmdb axios API
+react-youtube API
+stripe API

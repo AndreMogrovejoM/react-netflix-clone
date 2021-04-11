@@ -1,6 +1,7 @@
 import React from 'react';
 import requests from '../../backend/Requests';
 import Banner from '../../components/banner/Banner';
+
 import Navbar from '../../components/navbar/Navbar';
 import Row from '../../components/row/Row';
 import './HomeScreen.css';
@@ -31,6 +32,7 @@ export default function HomeScreen() {
             <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
             <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
 
+            
             
         </div>
     )
