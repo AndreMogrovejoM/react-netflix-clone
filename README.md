@@ -4,7 +4,7 @@ React-Netflix-Clone - André Mogrovejo
 
 ## Description
 
-This is a web app who wants to clone netflix step by step, here we used React and firebase to query and storage data on cloud services. Here we used [TMDB](https://www.themoviedb.org/) to get a dataset of movies using an Key API provided. This web app also contains user management services by [firebase](https://firebase.google.com/)to create, update an authenticated users and host this web app. Finally the part of payments is management by [stripe](https://stripe.com/es-us) API to create customers and monthly plans.
+This is a web app who wants to clone netflix step by step, LIVE VERSION LINK: [React-netx-clone-yt](https://netx-clone-yt.web.app) here we used React and firebase to query and storage data on cloud services. Here we used [TMDB](https://www.themoviedb.org/) to get a dataset of movies using an Key API provided. This web app also contains user management services by [firebase](https://firebase.google.com/) to create, update an authenticated users and host this web app. Finally the part of payments is management by [stripe](https://stripe.com/es-us) API to create customers and monthly plans.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
