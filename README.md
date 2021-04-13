@@ -1,14 +1,71 @@
+# React-Netflix-Clone - André Mogrovejo 
+
+React-Netflix-Clone - André Mogrovejo
+
+## Description
+
+This is a web app who wants to clone netflix step by step, here we used React and firebase to query and storage data on cloud services. Here we used [TMDB](https://www.themoviedb.org/) to get a dataset of movies using an Key API provided. This web app also contains user management services by [firebase](https://firebase.google.com/)to create, update an authenticated users and host this web app. Finally the part of payments is management by [stripe](https://stripe.com/es-us) API to create customers and monthly plans.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Live Version Link
 
-[React-netx-clone-yt](https://netx-clone-yt.web.app)
+## Setup and Run app
+
+You need the next dependencies:
+* [npm](https://www.npmjs.com/)
+* [yarn](https://yarnpkg.com)
+* [git](https://git-scm.com/)
+* [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+* [axios](https://www.npmjs.com/package/axios)
+* [firebase](https://firebase.google.com/)
+* [firebase-tools](https://firebase.google.com/)
+* [stripe](https://stripe.com/es-us)
+* [react-youtube](https://www.npmjs.com/package/react-youtube)
+* [movie-trailer](https://www.npmjs.com/package/movie-trailer)
+<!-- * [@material-ui/core](https://material-ui.com) -->
+<!-- * [Semantic-UI-React](https://react.semantic-ui.com/) -->
+
+### Setup the project
+
+Clone this repository
+``` bash
+git clone https://github.com/Skdiy/react-netflix-clone.git
+```
+
+Install npm
+``` bash
+npm install
+```
+
+Install the following dependencies at "dependencies.txt"
+``` bash
+yarn add ...
+```
 
 ## DATABASE
 
-TMDB database
-stripe API to connect payment methods
+The Movie Database ([TMDB](https://www.themoviedb.org/)) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.
 
+## Run App
+
+Execute `yarn start` to run the web app at `http://localhost:3000/`.
+
+## Application's view
+
+### Live Version Link
+
+[React-netx-clone-yt](https://netx-clone-yt.web.app)
+
+### Start
+![Start](https://github.com/Skdiy/react-netflix-clone/blob/master/captures/start.JPG)
+### SignIn
+![SignIn](https://github.com/Skdiy/react-netflix-clone/blob/master/captures/signin.JPG)
+### Edit Profiles
+![Edit Profiles](https://github.com/Skdiy/react-netflix-clone/blob/master/captures/ediprofile.JPG)
+### Main Screen
+![main1](https://github.com/Skdiy/react-netflix-clone/blob/master/captures/main1.JPG)
+### Main Screen 2
+![main2](https://github.com/Skdiy/react-netflix-clone/blob/master/captures/main2.JPG)
 
 ## Available Scripts
 
